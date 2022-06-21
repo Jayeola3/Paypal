@@ -223,7 +223,7 @@ a:hover{
     position: absolute;
     top: 140%;
     text-align: center;
-    background-color: #ffffff00;
+    background-color: gainsboro;
     font-weight: 100;
     font-size: 45px;
 }
@@ -305,7 +305,7 @@ a:hover{
     position: absolute;
     top:62%;
     left: 43%;
-    font-size: 14px;
+    font-size: 18px;
 }
 .num3{
     position: absolute;
@@ -327,7 +327,7 @@ a:hover{
     top:62%;
     left: 73%;
     text-align: justify;
-    font-size: 14px;
+    font-size: 18px;
 }
 .learns{
     position: absolute;
@@ -424,7 +424,7 @@ a:hover{
     position: absolute;
     top: 300%;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.144);
+    background-color:gainsboro;
 }
 .start{
     position:absolute;

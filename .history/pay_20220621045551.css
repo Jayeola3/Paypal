@@ -223,7 +223,7 @@ a:hover{
     position: absolute;
     top: 140%;
     text-align: center;
-    background-color: #ffffff00;
+    background-color: gainsboro;
     font-weight: 100;
     font-size: 45px;
 }
@@ -424,7 +424,7 @@ a:hover{
     position: absolute;
     top: 300%;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.144);
+    background-color:#666666;
 }
 .start{
     position:absolute;

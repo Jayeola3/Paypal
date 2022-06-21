@@ -1,6 +1,3 @@
-*{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 body{
     padding: 0;
     margin: 0;
@@ -21,7 +18,6 @@ body{
     height: 25%;
     position: absolute;
     top: 10%;
-    display: none;
     background-color:blue;
     font-size: 14px;
     font-weight: 10;
@@ -31,77 +27,46 @@ body{
     position: absolute;
     top: 10%;
     left: 15%;
-    width: 20%;
-}
-.link1:hover{
-    color: white;
-    text-decoration: underline;
+    width: 18%;
 }
 .link2{
     position:absolute;
     top: 60%;
     left: 15%;
-    width: 18%;
-}
-.link2:hover{
-    color: white;
-    text-decoration: underline;
 }
 .link3{
     position: absolute;
-    right: 23.5%;
+    right: 29%;
     top: 10%;
-    width: 18%;
-}
-.link3:hover{
-    color: white;
-    text-decoration: underline;
 }
 .link4{
     position: absolute;
-    right: 23.5%; 
+    right: 24.5%; 
     top: 60%;
-    width: 18%;
-}
-.link4:hover{
-    color: white;
-    text-decoration: underline;
 }
 .lim{
     position: absolute;
     top: 65%;
+    background-color: red;
     font-size: smaller;
-}
-.lim:hover{
-    color: white;
-    text-decoration: underline;
 }
 .lim2{
     position: absolute;
     top: 65%;
+    
     font-size: smaller;
-}
-.lim2:hover{
-    color: white;
-    text-decoration: underline;
 }
 .lim3{
     position: absolute;
     top: 65%;
+    ;
     font-size: smaller;
-}
-.lim3:hover{
-    color: white;
-    text-decoration: underline;
 }
 .lim4{
     position: absolute;
     top: 65%;
+    
     font-size: smaller;
-}
-.lim4:hover{
-    color: white;
-    text-decoration: underline;
 }
 .sonal{
     position: absolute;
@@ -223,22 +188,22 @@ a:hover{
     position: absolute;
     top: 140%;
     text-align: center;
-    background-color: #ffffff00;
+    background-color: gainsboro;
     font-weight: 100;
     font-size: 45px;
 }
 .connect{
     position: absolute;
-    top: 7%;
-    left: 30%;
-    font-size: 35px;
-    font-weight: light;
+    top: 8%;
+    left: 27%;
+    font-size: 43px;
+    font-weight: 10;
 }
 .buys{
     position: absolute;
-    top: 18%;
+    top: 14%;
     left: 47%;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 10;
 }
 .image1{
@@ -275,7 +240,7 @@ a:hover{
     position: absolute;
     top:62%;
     left: 11%;
-    font-size: 14px;
+    font-size: 18px;
     text-align: justify;
 }
 .links{
@@ -305,7 +270,7 @@ a:hover{
     position: absolute;
     top:62%;
     left: 43%;
-    font-size: 14px;
+    font-size: 18px;
 }
 .num3{
     position: absolute;
@@ -327,7 +292,7 @@ a:hover{
     top:62%;
     left: 73%;
     text-align: justify;
-    font-size: 14px;
+    font-size: 18px;
 }
 .learns{
     position: absolute;
@@ -343,7 +308,7 @@ a:hover{
 }
 .div4{
     width: 100%;
-    height: 80%;
+    height: 90%;
     position: absolute;
     top: 220%;
     background-color: blue;
@@ -352,8 +317,8 @@ a:hover{
 .active{
     font-size: 40px;
     position: absolute;
-    left: 19%;
-    top: 3%;
+    left: 21%;
+    top: 10%;
     color: white;
 }
 .simple{
@@ -361,15 +326,12 @@ a:hover{
     left: 50%;
     top: 38%;
     color: white;
-    font-size: 14.994px;
-    font-weight: 500;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    font-size: 18px;
 }
 .con{
     position: absolute;
     top: -47%;
-    font-size: 28px;
-    font-weight: 200;
+    font-size: 33px;
 }
 .pro{
     width: 50%;
@@ -381,38 +343,24 @@ a:hover{
     left: 8%;
     top: 75%;
     color: white;
-    font-size: 14.994px;
-    font-weight: 500;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
 }
 .front{
     position: absolute;
     top: -65%;
-    font-size: 28px;
-    font-weight: 200;
+    font-size: 33px;
 }
 .safer{
     position: absolute;
     left: 5%;
     top: 38%;
-    font-size: 14.994 px;
-    font-weight: 500;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
     color: white;
 }
 .safe{
     position: absolute;
     top: -57%;
-    font-size: 28px;
-    font-weight: 200;
-}
-#mores{
-    position: absolute;
-    top: 120%;
-}
-.more{
-    font-size: 15px;
-    font-weight: 800;
+    font-size: 33px;
 }
 .more:hover{
     text-decoration: underline;
@@ -422,15 +370,14 @@ a:hover{
     width: 100%;
     height: 45%;
     position: absolute;
-    top: 300%;
+    top: 310%;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.144);
+    background-color:gainsboro;
 }
 .start{
     position:absolute;
     top: 14%;
     left: 37%;
-    color: #2c2e2f;
     font-size: 38px;
     font-weight: 100;
 }
@@ -443,14 +390,14 @@ a:hover{
     border: none;
     border-radius: 124px;
     font-weight: 800;
-    background-color: #0070ba;
+    background-color: blue;
     color: white;
 }
 .help{
     width: 100%;
     height: 34%;
     position: absolute;
-    top: 340%;
+    top: 350%;
 }
 .move{
     position: absolute;
@@ -461,7 +408,7 @@ a:hover{
     font-size: 15px;
     font-weight: 100;
     text-align:center;
-    border:1px dotted #666666;
+    border:1px dotted gray;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -470,149 +417,129 @@ a:hover{
     position: absolute;
     left: 0%;
     top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
+    color: #767676;
 }
 .lin:hover{
-    color: #666666;
+    color: #767676;
 }
 .win{
     position: absolute;
     left: 12%;
     top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
+    color: #767676;
 }
 .win:hover{
-    color: #666666;
+    color: #767676;
 }
 .gin{
     position: absolute;
     left: 17%;
     top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
+    color: #767676;
 }
 .gin:hover{
-    color: #666666;
+    color: #767676;
 }
 .sin{
     position: absolute;
     left: 24%;
     top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
+    color: #767676;
 }
 .sin:hover{
-    color: #666666;
+    color: #767676;
 }
 .qin{
     position: absolute;
-    left: 31%;
+    left: 32%;
     top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
+    color: #767676;
 }
 .qin:hover{
-    color: #666666;
+    color: #767676;
 }
 .bout{
     position: absolute;
     left: 7%;
     top: 54%;
     width: 85%;
-    font-size: 10.9px;
-    color: #666666;
-    
-}
-.bin{
-    color: #666666;
+    font-size: smaller;
     font-weight: lighter;
 }
+.bin{
+    color: #767676;
+}
 .bin:hover{
-    color: #666666;
+    color: #767676;
 }
 .won{
     position: absolute;
     left: 4%;
-    color: #666666;
-    font-weight: lighter;
+    color: #767676;
 }
 .won:hover{
-    color: #666666;
+    color: #767676;
 }
 .gon{
     position: absolute;
     left: 11%;
-    color: #666666;
-    font-weight: lighter;
+    color: #767676;
 }
 .gon:hover{
-    color: #666666;
+    color: #767676;
 }
 .son{
     position: absolute;
     left: 15%;
-    color: #666666;
-    font-weight: lighter;
+    color: #767676;
 }
 .son:hover{
-    color: #666666;
+    color: #767676;
 }
 .qon{
     position: absolute;
     left: 21%;
-    color: #666666;
-    font-weight: lighter;
+    color: #767676;
 }
 .qon:hover{
-    color: #666666;
+    color: #767676;
 }
 .rights{
     position: absolute;
     left: 65%;
-    font-weight: lighter;
-    color: #666666;
+    color: #767676;
 }
 .rights:hover{
-    color: #666666;
+    color: #767676;
     text-decoration: none;
 }
 .access{
     position: absolute;
     left: 82%;
-    color: #666666;
-    font-weight: lighter;
+    color: #767676;
 }
 .access:hover{
-    color: #666666;
+    color: #767676;
 }
 .privacy{
     position: absolute;
     left: 91%;
-    color: #666666;
-    font-weight: lighter;
+    color: #767676;
 }
 .privacy:hover{
-    color: #666666;
+    color: #767676;
 }
 .legal{
     position: absolute;
     left: 97%;
-    color: #666666;
-    font-weight: lighter;
+    color: #767676;
 }
 .legal:hover{
-    color: #666666;
+    color: #767676;
 }
 .limited{
     position: absolute;
     top: 65%;
     left: 7%;
-    font-size: 12px;
+    font-size: 13px;
 }
