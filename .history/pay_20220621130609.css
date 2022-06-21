@@ -208,14 +208,13 @@ a:hover{
 .learn{
     position: absolute;
     top: 79%;
-    left: 44%;
+    left: 42%;
     font-size: 15px;
-    font-weight: 600;
-    width: 13%;
+    width: 14%;
     color: blue;
     background-color: white;
-    border-radius: 29px;
-    border:1.5px solid blue;
+    border-radius: 22px;
+    border:1px solid blue;
     height: 15%;
 }
 .div3{
