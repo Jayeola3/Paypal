@@ -68,7 +68,7 @@
     }
     .free{
         position: absolute;
-        top: 54%;
+        top: 50%;
         left: 5%;
         width: 89%;
         height: 13%;
@@ -82,7 +82,7 @@
     .business{
         width: 85%;
         position: absolute;
-        top: 72%;
+        top: 69%;
         left: 7%;
         font-size: 15px;
     }
