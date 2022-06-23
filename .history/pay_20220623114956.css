@@ -1,0 +1,626 @@
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0%;
+}
+.head2{
+    display: none;
+}
+.pal{
+    position: absolute;
+    left: 7%;
+    top:10%;
+}
+.drop{
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    top: 10%;
+    display: none;
+    background-color:blue;
+    font-size: 14px;
+    font-weight: 10;
+    z-index: 1;
+}
+.link1{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 20%;
+}
+.link1:hover{
+    color: white;
+    text-decoration: underline;
+}
+.link2{
+    position:absolute;
+    top: 60%;
+    left: 15%;
+    width: 18%;
+}
+.link2:hover{
+    color: white;
+    text-decoration: underline;
+}
+.link3{
+    position: absolute;
+    right: 23.5%;
+    top: 10%;
+    width: 18%;
+}
+.link3:hover{
+    color: white;
+    text-decoration: underline;
+}
+.link4{
+    position: absolute;
+    right: 23.5%; 
+    top: 60%;
+    width: 18%;
+}
+.link4:hover{
+    color: white;
+    text-decoration: underline;
+}
+.lim{
+    position: absolute;
+    top: 65%;
+    font-size: smaller;
+}
+.lim:hover{
+    color: white;
+    text-decoration: underline;
+}
+.lim2{
+    position: absolute;
+    top: 65%;
+    font-size: smaller;
+}
+.lim2:hover{
+    color: white;
+    text-decoration: underline;
+}
+.lim3{
+    position: absolute;
+    top: 65%;
+    font-size: smaller;
+}
+.lim3:hover{
+    color: white;
+    text-decoration: underline;
+}
+.lim4{
+    position: absolute;
+    top: 65%;
+    font-size: smaller;
+}
+.lim4:hover{
+    color: white;
+    text-decoration: underline;
+}
+.sonal{
+    position: absolute;
+    left: 46%;
+    top:10%;
+}
+.log{
+    position: absolute;
+    right: 16%;
+    top: 30%;
+    font-size: 13px;
+    font-weight: 800;
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    width: 6%;
+    height: 50%;
+    border-radius: 15px;
+}
+.sign{
+    position: absolute;
+    right: 9%;
+    top: 30%;
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    box-shadow: none;
+    width: 6%;
+    height: 50%;
+    border-radius: 18px;
+    border: none;
+}
+.div1{
+    background-color: blueviolet;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 30%;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    font-size: 45px;
+}
+.in{
+    position: absolute;
+    top: 32%;
+    left: 24%;
+}
+.free{
+    position: absolute;
+    top: 58%;
+    left: 35%;
+    width: 25%;
+    height: 10%;
+    border:none;
+    border-radius: 18px;
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    font-weight: 600;
+}
+.business{
+    position: absolute;
+    top: 67%;
+    left: 38%;
+    font-size: 15px;
+}
+a{
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.div2{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 45px;
+}
+.indiv{
+    position: absolute;
+    top: 28%;
+    left: 48%;
+}
+.individ{
+    position: absolute;
+    top: 48%;
+    left: 46%;
+    font-size: 25px;
+}
+.reason{
+    position: absolute;
+    top:63%;
+    left: 32%;
+    font-size: 18px;
+}
+.learn{
+    position: absolute;
+    top: 79%;
+    left: 44%;
+    font-size: 15px;
+    font-weight: 600;
+    width: 13%;
+    color: blue;
+    background-color: white;
+    border-radius: 29px;
+    border:1.5px solid blue;
+    height: 15%;
+}
+.div3{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 140%;
+    text-align: center;
+    background-color: #f7f9fa;
+    font-weight: 100;
+    font-size: 45px;
+}
+.connect{
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    font-size: 35px;
+    font-weight: light;
+}
+.buys{
+    position: absolute;
+    top: 18%;
+    left: 47%;
+    font-size: 14px;
+    font-weight: 10;
+}
+.image1{
+    position: absolute;
+    top: 32%;
+    left: 13%;
+}
+.image2{
+    position: absolute;
+    top: 32%;
+    left: 43%;
+}
+.image3{
+    position: absolute;
+    top: 32%;
+    left: 73%;
+}
+.num1{
+    position: absolute;
+    top: 64%;
+    left: 7%;
+    width: 3%;
+    height: 7.5%;
+    font-size: 20px;
+    border:1px solid gray;
+    border-radius: 100%;
+}
+.one{
+    position: absolute;
+    top:-27%;
+    left: 37%;
+}
+.signs{
+    position: absolute;
+    top:62%;
+    left: 11%;
+    font-size: 14px;
+    text-align: justify;
+}
+.links{
+    color:blue;
+    text-decoration: none;
+}
+.links:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.num2{
+    position: absolute;
+    top: 64%;
+    left: 39%;
+    width: 3%;
+    height: 7.5%;
+    font-size: 20px;
+    border:1px solid gray;
+    border-radius: 100%;
+}
+.two{
+    position: absolute;
+    top:-27%;
+    left: 37%;
+}
+.sig{
+    position: absolute;
+    top:62%;
+    left: 43%;
+    font-size: 14px;
+}
+.num3{
+    position: absolute;
+    top: 64%;
+    left: 69%;
+    width: 3%;
+    height: 7.5%;
+    font-size: 20px;
+    border:1px solid gray;
+    border-radius: 100%;
+}
+.three{
+    position: absolute;
+    top:-27%;
+    left: 37%;
+}
+.sigs{
+    position: absolute;
+    top:62%;
+    left: 73%;
+    text-align: justify;
+    font-size: 14px;
+}
+.learns{
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    font-size: 15px;
+    font-weight: 600;
+    width: 14%;
+    background-color: #ffffff;
+    color: blue;
+    border-radius: 29px;
+    border:1.5px solid blue;
+    height: 10%;
+}
+.div4{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 220%;
+    background-color: blue;
+    
+}
+.active{
+    font-size: 40px;
+    position: absolute;
+    left: 19%;
+    top: 3%;
+    color: white;
+}
+.simple{
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    color: white;
+    font-size: 14.994px;
+    font-weight: 500;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+.con{
+    position: absolute;
+    top: -47%;
+    font-size: 28px;
+    font-weight: 200;
+}
+.pro{
+    width: 50%;
+    position: absolute;
+    top: 90%;
+}
+.frees{
+    position: absolute;
+    left: 8%;
+    top: 75%;
+    color: white;
+    font-size: 14.994px;
+    font-weight: 500;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.front{
+    position: absolute;
+    top: -65%;
+    font-size: 28px;
+    font-weight: 200;
+}
+.safer{
+    position: absolute;
+    left: 5%;
+    top: 38%;
+    font-size: 14.994 px;
+    font-weight: 500;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+}
+.safe{
+    position: absolute;
+    top: -57%;
+    font-size: 28px;
+    font-weight: 200;
+}
+#mores{
+    position: absolute;
+    top: 120%;
+}
+.more{
+    font-size: 15px;
+    font-weight: 800;
+}
+.more:hover{
+    text-decoration: underline;
+    color: white;
+}
+.safers{
+    display: none;
+}
+.div5{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    top: 300%;
+    text-align: center;
+    background-color:#f7f9fa;
+}
+.start{
+    position:absolute;
+    top: 20%;
+    left: 40%;
+    color: #2c2e2f;
+    font-size: 26px;
+    font-weight: 100;
+}
+.started{
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    width: 24%;
+    height: 15%;
+    border: none;
+    border-radius: 124px;
+    font-weight: 800;
+    background-color: #0070ba;
+    color: white;
+}
+.help{
+    width: 100%;
+    height: 34%;
+    position: absolute;
+    top: 340%;
+}
+.move{
+    position: absolute;
+    left: 7%;
+    top: 25%;
+    width: 85%;
+    height: 25%;
+    font-size: 15px;
+    font-weight: 100;
+    text-align:center;
+    border:1px dotted #666666;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.lin{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 200;
+}
+.lin:hover{
+    color: #666666;
+}
+.win{
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 200;
+}
+.win:hover{
+    color: #666666;
+}
+.gin{
+    position: absolute;
+    left: 17%;
+    top: 50%;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 200;
+}
+.gin:hover{
+    color: #666666;
+}
+.sin{
+    position: absolute;
+    left: 24%;
+    top: 50%;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 200;
+}
+.sin:hover{
+    color: #666666;
+}
+.qin{
+    position: absolute;
+    left: 31%;
+    top: 50%;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 200;
+}
+.qin:hover{
+    color: #666666;
+}
+.bout{
+    position: absolute;
+    left: 7%;
+    top: 54%;
+    width: 85%;
+    font-size: 10.9px;
+    color: #666666;
+    
+}
+.bin{
+    color: #666666;
+    font-weight: lighter;
+}
+.bin:hover{
+    color: #666666;
+}
+.won{
+    position: absolute;
+    left: 4%;
+    color: #666666;
+    font-weight: lighter;
+}
+.won:hover{
+    color: #666666;
+}
+.gon{
+    position: absolute;
+    left: 11%;
+    color: #666666;
+    font-weight: lighter;
+}
+.gon:hover{
+    color: #666666;
+}
+.son{
+    position: absolute;
+    left: 15%;
+    color: #666666;
+    font-weight: lighter;
+}
+.son:hover{
+    color: #666666;
+}
+.qon{
+    position: absolute;
+    left: 21%;
+    color: #666666;
+    font-weight: lighter;
+}
+.qon:hover{
+    color: #666666;
+}
+.rights{
+    position: absolute;
+    left: 65%;
+    font-weight: lighter;
+    color: #666666;
+}
+.rights:hover{
+    color: #666666;
+    text-decoration: none;
+}
+.access{
+    position: absolute;
+    left: 82%;
+    color: #666666;
+    font-weight: lighter;
+}
+.access:hover{
+    color: #666666;
+}
+.privacy{
+    position: absolute;
+    left: 91%;
+    color: #666666;
+    font-weight: lighter;
+}
+.privacy:hover{
+    color: #666666;
+}
+.legal{
+    position: absolute;
+    left: 97%;
+    color: #666666;
+    font-weight: lighter;
+}
+.legal:hover{
+    color: #666666;
+}
+.limited{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    font-size: 12px;
+}
