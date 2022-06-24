@@ -153,6 +153,7 @@
         top: 130%;
         text-align: center;
         background-color: #f7f9fa;
+        background-color: green;
         font-weight: 100;
         font-size: 45px;
     }
@@ -174,7 +175,7 @@
     .subs1{
         height: 25%;
         width: 99%;
-        border-bottom: 1px solid gray;
+        border: 1px solid red;
         position: absolute;
         top: 17%;
     }
@@ -216,9 +217,9 @@
         word-spacing: 2px;
     }
     .subs2{
-        height: 25%;
+        height: 24%;
         width: 99%;
-        border-bottom: 1px solid gray;
+        border: 1px solid red;
         position: absolute;
         top: 42%;
     }
@@ -253,50 +254,9 @@
     .subs3{
         height: 25%;
         width: 99%;
-        border:none;
+        border: 1px solid red;
         position: absolute;
-        top: 67.1%;
-    }
-    .image3{
-        width: 60%;
-        position: absolute;
-        left: 20%;
-        top: 7%;
-    }
-    .num3{
-        position: absolute;
-        top: 76%;
-        left: 7%;
-        width: 10%;
-        height: 13%;
-        font-size: 20px;
-        border:1px solid gray;
-        border-radius: 100%;
-        text-align: center;
-    }
-    .three{
-        position: absolute;
-        top: -16%;
-    }
-    .sigs{
-        position: absolute;
-        top: 72%;
-        left: 21%;
-        font-size: 19px;
-        word-spacing: 2px;
-    }
-    .learns{
-        position: absolute;
-        top: 92%;
-        left: 20%;
-        font-size: 16px;
-        font-weight: 700;
-        width: 59%;
-        background-color: #ffffff;
-        color: blue;
-        border-radius: 29px;
-        border:1.5px solid blue;
-        height: 4%;
+        top: 69%;
     }
 
 

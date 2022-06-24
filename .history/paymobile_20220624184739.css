@@ -153,6 +153,7 @@
         top: 130%;
         text-align: center;
         background-color: #f7f9fa;
+        background-color: green;
         font-weight: 100;
         font-size: 45px;
     }
@@ -284,19 +285,6 @@
         left: 21%;
         font-size: 19px;
         word-spacing: 2px;
-    }
-    .learns{
-        position: absolute;
-        top: 92%;
-        left: 20%;
-        font-size: 16px;
-        font-weight: 700;
-        width: 59%;
-        background-color: #ffffff;
-        color: blue;
-        border-radius: 29px;
-        border:1.5px solid blue;
-        height: 4%;
     }
 
 
