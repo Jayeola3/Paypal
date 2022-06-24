@@ -207,17 +207,17 @@
     .signs{
         width: 60%;
         position: absolute;
-        word-spacing: ;
+        word-spacing: 1px;
         top:36%;
-        left: 5%;
+        left: 0%;
         border:1px solid gray;
         border-top:none;
         border-left:none;
         border-right:none;
-        font-size: 18px;
+        font-size: 17px;
         text-align: justify;
-        
-        
+        padding-left: 70px;
+        padding-bottom: 20px;
     }
     .links{
         color:blue;
@@ -375,8 +375,8 @@
         display: block;
         line-height: 28px;
         font-weight: 500;
-        font-size: 16px;
-        width: 90%;
+        font-size: 17.2px;
+        width: 100%;
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: white;
     }

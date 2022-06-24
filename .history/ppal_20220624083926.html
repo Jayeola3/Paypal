@@ -10,22 +10,20 @@
     <script src="https://kit.fontawesome.com/ae49a07b65.js" crossorigin="anonymous"></script>
     <script>
         function myFunction() {
-            //document.getElementById("drops").style.display="block";
-            let dosh = document.getElementById("drops");
-            let med = document.getElementById("said");
-            if (med.onmouseover == true){
-                dosh.style.display="block";
+            let drops = document.getElementById("drops");
+            if (box.clicked == true){
+                drops.style.display="block";
             }else {
-                dosh.style.display="none";
+                drops.style.display="none";
+            }
         }
-     }
         </script>
 </head>
 <body>
     <div class="body">
         <div class="head">
             <img src="images/paypal.PNG" alt="" class="pal">
-            <h3 class="sonal" id="said" onmouseover="myFunction()">Personal <i class="fa-light fas fa-angle-down"></i></h3>
+            <h3 class="sonal" onmouseover="myFunction()">Personal <i class="fa-light fas fa-angle-down"></i></h3>
             <button class="log">Log in</button>
             <button class="sign">Sign up</button>
         </div>

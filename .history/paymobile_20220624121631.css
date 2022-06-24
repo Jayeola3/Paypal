@@ -207,17 +207,17 @@
     .signs{
         width: 60%;
         position: absolute;
-        word-spacing: ;
+        word-spacing: 1px;
         top:36%;
-        left: 5%;
+        left: 0%;
         border:1px solid gray;
         border-top:none;
         border-left:none;
         border-right:none;
-        font-size: 18px;
+        font-size: 17px;
         text-align: justify;
         
-        
+        padding-bottom: 20px;
     }
     .links{
         color:blue;
