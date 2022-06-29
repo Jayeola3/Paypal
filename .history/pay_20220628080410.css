@@ -466,11 +466,8 @@ a:hover{
     height: 34%;
     position: absolute;
     top: 340%;
-}.moves{
-    display: none;
 }
 .move{
-    display: block;
     position: absolute;
     left: 7%;
     top: 25%;

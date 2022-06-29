@@ -440,7 +440,6 @@
         display: none;
     }
     .moves{
-        display: block;
         background-color: #0070ba;
         position:absolute;
         top: 490%;

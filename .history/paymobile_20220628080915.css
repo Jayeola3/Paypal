@@ -429,20 +429,168 @@
         background-color: #0070ba;
         color: white;
     }
-    .flags{
-        width: 7%;
-        height: 3%;
-        position:absolute;
-        top: 500%;
-        left: 46.5%;
-    }
     .move{
-        display: none;
+        position: absolute;
+        left: 7%;
+        top: 25%;
+        width: 85%;
+        height: 25%;
+        font-size: 15px;
+        font-weight: 100;
+        text-align:center;
+        border:1px dotted #666666;
+        border-top: none;
+        border-left: none;
+        border-right: none;
     }
-    .moves{
-        display: block;
-        background-color: #0070ba;
-        position:absolute;
-        top: 490%;
+    .lin{
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        color: #666666;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .lin:hover{
+        color: #666666;
+    }
+    .win{
+        position: absolute;
+        left: 12%;
+        top: 50%;
+        color: #666666;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .win:hover{
+        color: #666666;
+    }
+    .gin{
+        position: absolute;
+        left: 17%;
+        top: 50%;
+        color: #666666;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .gin:hover{
+        color: #666666;
+    }
+    .sin{
+        position: absolute;
+        left: 24%;
+        top: 50%;
+        color: #666666;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .sin:hover{
+        color: #666666;
+    }
+    .qin{
+        position: absolute;
+        left: 31%;
+        top: 50%;
+        color: #666666;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .qin:hover{
+        color: #666666;
+    }
+    .bout{
+        position: absolute;
+        left: 7%;
+        top: 54%;
+        width: 85%;
+        font-size: 10.9px;
+        color: #666666;
+        
+    }
+    .bin{
+        color: #666666;
+        font-weight: lighter;
+    }
+    .bin:hover{
+        color: #666666;
+    }
+    .won{
+        position: absolute;
+        left: 4%;
+        color: #666666;
+        font-weight: lighter;
+    }
+    .won:hover{
+        color: #666666;
+    }
+    .gon{
+        position: absolute;
+        left: 11%;
+        color: #666666;
+        font-weight: lighter;
+    }
+    .gon:hover{
+        color: #666666;
+    }
+    .son{
+        position: absolute;
+        left: 15%;
+        color: #666666;
+        font-weight: lighter;
+    }
+    .son:hover{
+        color: #666666;
+    }
+    .qon{
+        position: absolute;
+        left: 21%;
+        color: #666666;
+        font-weight: lighter;
+    }
+    .qon:hover{
+        color: #666666;
+    }
+    .rights{
+        position: absolute;
+        left: 65%;
+        font-weight: lighter;
+        color: #666666;
+    }
+    .rights:hover{
+        color: #666666;
+        text-decoration: none;
+    }
+    .access{
+        position: absolute;
+        left: 82%;
+        color: #666666;
+        font-weight: lighter;
+    }
+    .access:hover{
+        color: #666666;
+    }
+    .privacy{
+        position: absolute;
+        left: 91%;
+        color: #666666;
+        font-weight: lighter;
+    }
+    .privacy:hover{
+        color: #666666;
+    }
+    .legal{
+        position: absolute;
+        left: 97%;
+        color: #666666;
+        font-weight: lighter;
+    }
+    .legal:hover{
+        color: #666666;
+    }
+    .limited{
+        position: absolute;
+        top: 65%;
+        left: 7%;
+        font-size: 12px;
     }
 }

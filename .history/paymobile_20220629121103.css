@@ -431,16 +431,11 @@
     }
     .flags{
         width: 7%;
-        height: 3%;
         position:absolute;
-        top: 500%;
+        top: 493%;
         left: 46.5%;
     }
     .move{
-        display: none;
-    }
-    .moves{
-        display: block;
         background-color: #0070ba;
         position:absolute;
         top: 490%;
