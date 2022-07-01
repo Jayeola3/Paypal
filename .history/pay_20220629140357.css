@@ -469,10 +469,7 @@ a:hover{
 }.moves{
     display: none;
 }
-.bouts{
-    display: none;
-}
-.limiteds{
+.bouts .limiteds{
     display: none;
 }
 .move{

@@ -429,6 +429,13 @@
         background-color: #0070ba;
         color: white;
     }
+    .flags{
+        width: 7%;
+        height: 3%;
+        position:absolute;
+        top: 500%;
+        left: 46.5%;
+    }
     .move{
         display: none;
     }
@@ -436,12 +443,9 @@
        display: none;
     }
     .limiteds{
-        display: block;
+        background-color:blue;
         text-align: center;
         line-height: 21px;
-        width: 100%;
-        position: absolute;
-        top: 538%;
         font-size: 17px;
         padding-top: 10px;
         padding-bottom: 50px;
@@ -449,148 +453,71 @@
     .contact{
         position: relative;
         left:-7%;
-        color: #666666;
-    }
-    .contact:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .feature{
         position: relative;
         left:-4%;
-        color: #666666;
-    }
-    .feature:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .fee{
         position: relative;
         left:-3%;
-        color: #666666;
-    }
-    .fee:hover{
-        color: #666666;
-        text-decoration: underline;
-    }
-    .shops{
-        color: #666666;
-    }
-    .shops:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .secure{
         position: relative;
         left: 2%;
-        color: #666666;
-    }
-    .secure:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .bount{
         position: relative;
         left:-6%;
-        color: #666666;
-    }
-    .bount:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .newsroom{
         position: relative;
         left:-4%;
-        color: #666666;
-    }
-    .newsroom:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .devs{
         position: relative;
         left:-3%;
-        color: #666666;
-    }
-    .devs:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .job{
         position: relative;
         left:-1%;
-        color: #666666;
-    }
-    .job:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .sites{
         position: relative;
         left: 2%;
-        color: #666666;
     }
-    .sites:hover{
-        color: #666666;
-        text-decoration: underline;
-    }
-    .right{
+    .rights{
         font-size: 15px;
         position: relative;
         left: -1%;
-        color: #666666;
     }
-    .right:hover{
-        color: #666666;
-        text-decoration: underline;
-    }
-    .accesses{
+    .access{
         font-size: 15px;
         position: relative;
         left: 1%;
-        color: #666666;
     }
-    .accesses:hover{
-        color: #666666;
-        text-decoration: underline;
-    }
-    .privacys{
+    .privacy{
         font-size: 15px;
         position: relative;
         left: -4%;
-        color: #666666;
     }
-    .privacys:hover{
-        color: #666666;
-        text-decoration: underline;
-    }
-    .legals{
+    .legal{
         font-size: 15px;
         position: relative;
         left: -1%;
-        color: #666666;
-    }
-    .legals:hover{
-        color: #666666;
-        text-decoration: underline;
     }
     .moves{
-        display: block;
+        background-color: red;
         width: 100%;
-        color: gray;
-        position: absolute;
-        top: 508%;
         line-height: 32px;
         text-align: center;
         font-size: 17px;
         font-weight: 600;
     }
     .bouts{
-        color: #666666;
         display: block;
+        background-color: red;
         width: 100%;
-        position: absolute;
-        top: 520%;
         line-height: 32px;
         text-align: center;
         font-size: 17px;
