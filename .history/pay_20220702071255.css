@@ -189,7 +189,7 @@ a:hover{
     top: 80%;
     text-align: center;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 37px;
 }
 .indiv{
     position: absolute;
@@ -200,7 +200,7 @@ a:hover{
     position: absolute;
     top: 48%;
     left: 46%;
-    font-size: 20px;
+    font-size: 25px;
 }
 .reason{
     position: absolute;
@@ -409,7 +409,7 @@ a:hover{
 .safe{
     position: absolute;
     top: -57%;
-    font-size: 23px;
+    font-size: 28px;
     font-weight: 200;
 }
 #mores{
@@ -418,7 +418,7 @@ a:hover{
 }
 .more{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 800;
 }
 .more:hover{
     text-decoration: underline;
