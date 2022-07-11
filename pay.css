@@ -1,642 +1,567 @@
 *{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-body{
     padding: 0;
     margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
-.head{
-    width: 100%;
-    height: 10%;
-    position: absolute;
-    top: 0%;
-}
-.head2{
+.pay_logo2{
     display: none;
 }
-.pal{
-    position: absolute;
-    left: 7%;
-    top:10%;
-}
-.drop{
+
+.nav_bar{
     width: 100%;
     height: 25%;
-    position: absolute;
-    top: 10%;
-    display: none;
-    background-color:blue;
-    font-size: 14px;
-    font-weight: 10;
-    z-index: 1;
-}
-.link1{
-    position: absolute;
-    top: 10%;
-    left: 15%;
-    width: 20%;
-}
-.link1:hover{
-    color: white;
-    text-decoration: underline;
-}
-.link2{
-    position:absolute;
-    top: 60%;
-    left: 15%;
-    width: 18%;
-}
-.link2:hover{
-    color: white;
-    text-decoration: underline;
-}
-.link3{
-    position: absolute;
-    right: 23.5%;
-    top: 10%;
-    width: 18%;
-}
-.link3:hover{
-    color: white;
-    text-decoration: underline;
-}
-.link4{
-    position: absolute;
-    right: 23.5%; 
-    top: 60%;
-    width: 18%;
-}
-.link4:hover{
-    color: white;
-    text-decoration: underline;
-}
-.lim{
-    position: absolute;
-    top: 65%;
-    font-size: smaller;
-}
-.lim:hover{
-    color: white;
-    text-decoration: underline;
-}
-.lim2{
-    position: absolute;
-    top: 65%;
-    font-size: smaller;
-}
-.lim2:hover{
-    color: white;
-    text-decoration: underline;
-}
-.lim3{
-    position: absolute;
-    top: 65%;
-    font-size: smaller;
-}
-.lim3:hover{
-    color: white;
-    text-decoration: underline;
-}
-.lim4{
-    position: absolute;
-    top: 65%;
-    font-size: smaller;
-}
-.lim4:hover{
-    color: white;
-    text-decoration: underline;
-}
-.sonal{
-    position: absolute;
-    left: 46%;
-    top:10%;
 }
 .log{
-    position: absolute;
-    right: 16%;
-    top: 30%;
-    font-size: 13px;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    font-size: 11px;
     font-weight: 800;
     color: blue;
+    padding: 8px 22px;
     background-color: white;
-    border: 1px solid blue;
-    width: 6%;
-    height: 50%;
-    border-radius: 15px;
+    border: 2px solid blue;
+    border-radius: 25px;
 }
 .sign{
-    position: absolute;
-    right: 9%;
-    top: 30%;
+    float: right;
+    margin-right: 10%;
+    clear:left;
+    margin-top: 1%;
     background-color: blue;
     color: white;
-    font-size: 13px;
+    padding: 9px 20px;
+    font-size: 11px;
     font-weight: 800;
-    box-shadow: none;
-    width: 6%;
-    height: 50%;
-    border-radius: 18px;
+    border-radius: 25px;
     border: none;
 }
+.sonal{
+    float: right;
+    margin-right: 26.5%;
+    margin-top: 1.5%;
+}
+.pay_logo{
+    margin-left: 5%;
+    margin-top:0.8%;
+    clear: right;
+}
 .div1{
-    background-color: blueviolet;
     width: 100%;
-    height: 60%;
-    position: absolute;
-    bottom: 30%;
+    height: 55%;
+    background-color: blueviolet;
     text-align: center;
     font-weight: 100;
     color: white;
+    padding-top: 8%;
+    padding-bottom: 7%;
     font-size: 45px;
 }
 .in{
-    position: absolute;
-    top: 28%;
-    left: 36%;
+    padding-bottom: 22px;
+    font-size: 38px;
+    font-weight: lighter;
 }
 .free{
-    position: absolute;
-    top: 58%;
-    left: 37%;
-    width: 25%;
-    height: 10%;
     border:none;
+    padding: 12px 8%;
     border-radius: 18px;
     color: white;
-    background-color: blue;
-    font-size: 16px;
-    font-weight: 600;
+    background-color: #0070ba;
+    font-size: 14px;
+    font-weight: 700;
 }
 .business{
-    position: absolute;
-    top: 67%;
-    left: 37%;
+    padding-top: 22px;
     font-size: 15px;
 }
-a{
-    font-weight: 800;
-    text-decoration: none;
+.div1 a{
     color: white;
+    font-weight: 600;
+    text-decoration: none;
 }
-a:hover{
+.div1 a:hover{
     text-decoration: underline;
-    color: blue;
 }
 .div2{
     width: 100%;
-    height: 50%;
-    position: absolute;
-    top: 80%;
     text-align: center;
-    font-weight: 100;
-    font-size: 35px;
+    font-weight: lighter;
+    margin-top :70px;
+    margin-bottom: 10px;
 }
-.indiv{
-    position: absolute;
-    top: 28%;
-    left: 48%;
+.online_payers{
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom: 60px;
 }
-.individ{
-    position: absolute;
-    top: 48%;
-    left: 46%;
-    font-size: 20px;
+.individ{   
+    margin-top: 15px;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 .reason{
-    position: absolute;
-    top:63%;
-    left: 32%;
-    font-size: 18px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .learn{
-    position: absolute;
-    top: 79%;
-    left: 44%;
     font-size: 15px;
     font-weight: 600;
-    width: 13%;
-    color: blue;
+    margin: 30px;
+    padding: 15px 42px;
+    color: #0070ba;
     background-color: white;
     border-radius: 29px;
-    border:1.5px solid blue;
-    height: 15%;
+    border:1.5px solid #0070ba;
+    
 }
 .div3{
     width: 100%;
-    height: 80%;
-    position: absolute;
-    top: 140%;
     text-align: center;
+    padding-bottom: 50px;
     background-color: #f7f9fa;
-    font-weight: 100;
-    font-size: 45px;
 }
 .connect{
-    position: absolute;
-    top: 7%;
-    left: 30%;
-    font-size: 35px;
-    font-weight: light;
+    font-size: 36px;
+    padding-top: 50px;
 }
 .buys{
-    position: absolute;
-    top: 18%;
-    left: 47%;
-    font-size: 14px;
-    font-weight: 10;
-}
-.image1{
-    position: absolute;
-    top: 32%;
-    left: 13%;
-}
-.image2{
-    position: absolute;
-    top: 32%;
-    left: 43%;
-}
-.image3{
-    position: absolute;
-    top: 32%;
-    left: 73%;
-}
-.num1{
-    position: absolute;
-    top: 64%;
-    left: 7%;
-    width: 3%;
-    height: 7.5%;
-    font-size: 20px;
-    border:1px solid gray;
-    border-radius: 100%;
-}
-.one{
-    position: absolute;
-    top:-27%;
-    left: 37%;
-}
-.signs{
-    position: absolute;
-    top:62%;
-    left: 11%;
-    font-size: 14px;
-    text-align: justify;
-}
-.links{
-    color:blue;
-    text-decoration: none;
-}
-.links:hover{
-    color:blue;
-    text-decoration: underline;
-}
-.num2{
-    position: absolute;
-    top: 64%;
-    left: 39%;
-    width: 3%;
-    height: 7.5%;
-    font-size: 20px;
-    border:1px solid gray;
-    border-radius: 100%;
-}
-.two{
-    position: absolute;
-    top:-27%;
-    left: 37%;
-}
-.sig{
-    position: absolute;
-    top:62%;
-    left: 43%;
+    padding-top: 30px;
     font-size: 14px;
 }
-.num3{
-    position: absolute;
-    top: 64%;
-    left: 69%;
-    width: 3%;
-    height: 7.5%;
-    font-size: 20px;
-    border:1px solid gray;
-    border-radius: 100%;
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
-.three{
-    position: absolute;
-    top:-27%;
-    left: 37%;
+.subs1 span{
+    border: 1px solid #666666;;
+    padding: 7px 12px;
+    margin: 5px;
+    border-radius: 18px; 
 }
-.sigs{
-    position: absolute;
-    top:62%;
-    left: 73%;
-    text-align: justify;
-    font-size: 14px;
+.subs2 span{
+    border: 1px solid#666666;;
+    margin: 5px;
+    padding: 7px 12px;
+    border-radius: 18px;
+}
+.subs2 div{
+    padding-right: 60px;
+}
+.subs3 span{
+    border: 1px solid #666666;;
+    margin: 5px;
+    padding: 7px 12px;
+    border-radius: 18px;
+}
+.subs3 .pal_con{
+    padding-left: 36px;
 }
 .learns{
-    position: absolute;
-    top: 80%;
-    left: 42%;
+    margin-top: 50px;
     font-size: 15px;
     font-weight: 600;
-    width: 14%;
+    padding: 15px 45px;
     background-color: #ffffff;
-    color: blue;
+    color: #0070ba;
     border-radius: 29px;
-    border:1.5px solid blue;
+    border:1.5px solid #0070ba;
     height: 10%;
 }
-
 .div4{
-    width: 100%;
-    height: 80%;
-    position: absolute;
-    top: 220%;
-    background-color: blue;
-    
-}
-.active{
-    font-size: 40px;
-    position: absolute;
-    left: 19%;
-    top: 3%;
+    background-color: #0070ba;
+    padding-bottom: 45px;
     color: white;
 }
-.simple{
-    position: absolute;
-    left: 50%;
-    top: 38%;
-    color: white;
-    font-size: 14.994px;
-    font-weight: 500;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+.div4 .active{
+    font-size: 36px;
+    padding-top: 40px;
+    padding-left: 21%;
 }
-.con{
-    position: absolute;
-    top: -47%;
-    font-size: 28px;
-    font-weight: 200;
-}
-.pro{
-    width: 50%;
-    position: absolute;
-    top: 90%;
+.flex_contain{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .frees{
-    position: absolute;
-    left: 8%;
-    top: 75%;
-    color: white;
-    font-size: 14.994px;
-    font-weight: 500;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.front{
-    position: absolute;
-    top: -65%;
-    font-size: 28px;
-    font-weight: 200;
-}
-.safer{
-    position: absolute;
-    left: 5%;
-    top: 38%;
-    font-size: 14.994 px;
-    font-weight: 500;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: white;
+    padding-left: 10%;
 }
 .safe{
-    position: absolute;
-    top: -57%;
-    font-size: 23px;
-    font-weight: 200;
+   margin-bottom: 20px;
 }
-#mores{
-    position: absolute;
-    top: 120%;
-}
+.safes{
+    margin-top: -19px
+ }
 .more{
-    font-size: 15px;
+    color: white;
     font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
 }
 .more:hover{
     text-decoration: underline;
-    color: white;
-}
-.freess{
-    display: none;
-}
-.simples{
-    display: none;
-}
-.safers{
-    display: none;
 }
 .div5{
     width: 100%;
-    height: 45%;
-    position: absolute;
-    top: 300%;
     text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 24px;
+    font-weight: 100;
     background-color:#f7f9fa;
 }
-.start{
-    position:absolute;
-    top: 20%;
-    left: 40%;
-    color: #2c2e2f;
-    font-size: 26px;
-    font-weight: 100;
-}
 .started{
-    position: absolute;
-    top: 45%;
-    left: 38%;
-    width: 24%;
-    height: 15%;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 14px 115px;
+    border-radius: 30px;
     border: none;
-    border-radius: 124px;
     font-weight: 800;
     background-color: #0070ba;
     color: white;
 }
 .help{
-    width: 100%;
-    height: 34%;
-    position: absolute;
-    top: 340%;
-}.moves{
-    display: none;
-}
-.bouts{
-    display: none;
-}
-.limiteds{
-    display: none;
+    padding-top: 60px;
 }
 .move{
-    display: block;
-    position: absolute;
-    left: 7%;
-    top: 25%;
     width: 85%;
-    height: 25%;
-    font-size: 15px;
-    font-weight: 100;
-    text-align:center;
-    border:1px dotted #666666;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    margin-left: 105px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
 }
-.lin{
-    position: absolute;
-    left: 0%;
-    top: 50%;
-    color: #666666;
+.move a{
+    padding: 0 5px;
     font-size: 14px;
-    font-weight: 200;
-}
-.lin:hover{
-    color: #666666;
-}
-.win{
-    position: absolute;
-    left: 12%;
-    top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
-}
-.win:hover{
-    color: #666666;
-}
-.gin{
-    position: absolute;
-    left: 17%;
-    top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
-}
-.gin:hover{
-    color: #666666;
-}
-.sin{
-    position: absolute;
-    left: 24%;
-    top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
-}
-.sin:hover{
-    color: #666666;
-}
-.qin{
-    position: absolute;
-    left: 31%;
-    top: 50%;
-    color: #666666;
-    font-size: 14px;
-    font-weight: 200;
-}
-.qin:hover{
-    color: #666666;
-}
-.bout{
-    position: absolute;
-    left: 7%;
-    top: 54%;
-    width: 85%;
-    font-size: 10.9px;
-    color: #666666;
-    
-}
-.bin{
-    color: #666666;
-    font-weight: lighter;
-}
-.bin:hover{
-    color: #666666;
-}
-.won{
-    position: absolute;
-    left: 4%;
-    color: #666666;
-    font-weight: lighter;
-}
-.won:hover{
-    color: #666666;
-}
-.gon{
-    position: absolute;
-    left: 11%;
-    color: #666666;
-    font-weight: lighter;
-}
-.gon:hover{
-    color: #666666;
-}
-.son{
-    position: absolute;
-    left: 15%;
-    color: #666666;
-    font-weight: lighter;
-}
-.son:hover{
-    color: #666666;
-}
-.qon{
-    position: absolute;
-    left: 21%;
-    color: #666666;
-    font-weight: lighter;
-}
-.qon:hover{
-    color: #666666;
-}
-.rights{
-    position: absolute;
-    left: 65%;
-    font-weight: lighter;
-    color: #666666;
-}
-.rights:hover{
     color: #666666;
     text-decoration: none;
 }
-.access{
-    position: absolute;
-    left: 82%;
-    color: #666666;
-    font-weight: lighter;
+.move a:hover{
+    text-decoration: underline;
 }
-.access:hover{
-    color: #666666;
+.bout{
+    display: block;
+    width: 85%;
+    font-size: 12px;
+    margin-left: 100px;
+    padding-top: 10px;
+    text-align: start;
+    margin-bottom: 20px;
 }
-.privacy{
-    position: absolute;
-    left: 91%;
-    color: #666666;
-    font-weight: lighter;
+.rights{
+   margin-left: 36.2%;
 }
-.privacy:hover{
+.bout a{
+    text-decoration: none;
     color: #666666;
+    padding: 0 10px;
 }
-.legal{
-    position: absolute;
-    left: 97%;
-    color: #666666;
-    font-weight: lighter;
-}
-.legal:hover{
-    color: #666666;
+.bout a:hover{
+    text-decoration: underline;
 }
 .limited{
-    position: absolute;
-    top: 65%;
-    left: 7%;
+    width: 85%;
     font-size: 12px;
+    margin-left: 108px;
+    margin-bottom: 35px;
+}
+
+
+@media screen and (max-width:375px) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+    }
+    
+    .nav_bar{
+        width: 100%;
+        height: 25%;
+    }
+    .log{
+        float: right;
+        margin-right: 1%;
+        margin-top: 1%;
+        font-size: 11px;
+        font-weight: 800;
+        color: blue;
+        padding: 8px 22px;
+        background-color: white;
+        border: 2px solid blue;
+        border-radius: 25px;
+    }
+    .sign{
+        float: right;
+        margin-right: 10%;
+        clear:left;
+        margin-top: 1%;
+        background-color: blue;
+        color: white;
+        padding: 9px 20px;
+        font-size: 11px;
+        font-weight: 800;
+        border-radius: 25px;
+        border: none;
+    }
+    .sonal{
+        float: right;
+        margin-right: 26.5%;
+        margin-top: 1.5%;
+    }
+    .pay_logo{
+        display: none;
+    }
+    .pay_logo2{
+        display: block;
+        margin-left: 5%;
+        margin-top:0.8%;
+        clear: right;
+    }
+    .div1{
+        width: 100%;
+        height: 55%;
+        background-color: blueviolet;
+        text-align: center;
+        font-weight: 100;
+        color: white;
+        padding-top: 8%;
+        padding-bottom: 7%;
+        font-size: 45px;
+    }
+    .in{
+        padding-bottom: 22px;
+        font-size: 38px;
+        font-weight: lighter;
+    }
+    .free{
+        border:none;
+        padding: 12px 8%;
+        border-radius: 18px;
+        color: white;
+        background-color: #0070ba;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .business{
+        padding-top: 22px;
+        font-size: 15px;
+    }
+    .div1 a{
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .div1 a:hover{
+        text-decoration: underline;
+    }
+    .div2{
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        margin-top :70px;
+        margin-bottom: 10px;
+    }
+    .online_payers{
+        font-size: 36px;
+        font-weight: lighter;
+        margin-bottom: 60px;
+    }
+    .individ{   
+        margin-top: 15px;
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+    .reason{
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .learn{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 30px;
+        padding: 15px 42px;
+        color: #0070ba;
+        background-color: white;
+        border-radius: 29px;
+        border:1.5px solid #0070ba;
+        
+    }
+    .div3{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+        background-color: #f7f9fa;
+    }
+    .connect{
+        font-size: 36px;
+        padding-top: 50px;
+    }
+    .buys{
+        padding-top: 30px;
+        font-size: 14px;
+    }
+    .flexcontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+    .signs{
+        padding-right: 80px;
+        width: auto;
+    }
+    .subs1{
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #666666;
+    }
+    .subs2{
+        width: 100%;
+        margin-top: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #666666;
+    }
+    .subs3{
+        margin-top: 40px;
+    }
+    .subs1 span{
+        border: 1px solid #666666;
+        padding: 7px 12px;
+        margin: 5px;
+        border-radius: 18px; 
+    }
+    .subs2 span{
+        border: 1px solid#666666;;
+        margin: 5px;
+        padding: 7px 12px;
+        border-radius: 18px;
+    }
+    .subs2 div{
+        padding-right: 60px;
+    }
+    .subs3 span{
+        border: 1px solid #666666;;
+        margin: 5px;
+        padding: 7px 12px;
+        border-radius: 18px;
+    }
+    .subs3 .pal_con{
+        padding-left: 36px;
+    }
+    .learns{
+        margin-top: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px 45px;
+        background-color: #ffffff;
+        color: #0070ba;
+        border-radius: 29px;
+        border:1.5px solid #0070ba;
+        height: 10%;
+    }
+    .div4{
+        background-color: #0070ba;
+        padding-bottom: 45px;
+        color: white;
+    }
+    .div4 .active{
+        font-size: 36px;
+        padding-top: 40px;
+        padding-left: 21%;
+    }
+    .flex_contain{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .frees{
+        padding-left: 10%;
+    }
+    .safe{
+       margin-bottom: 20px;
+    }
+    .safes{
+        margin-top: -19px
+     }
+    .more{
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .more:hover{
+        text-decoration: underline;
+    }
+    .div5{
+        width: 100%;
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        font-size: 24px;
+        font-weight: 100;
+        background-color:#f7f9fa;
+    }
+    .started{
+        margin-top: 20px;
+        font-weight: 600;
+        padding: 14px 115px;
+        border-radius: 30px;
+        border: none;
+        font-weight: 800;
+        background-color: #0070ba;
+        color: white;
+    }
+    .help{
+        padding-top: 60px;
+    }
+    .move{
+        width: 85%;
+        margin-left: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px dotted;
+    }
+    .move a{
+        padding: 0 5px;
+        font-size: 14px;
+        color: #666666;
+        text-decoration: none;
+    }
+    .move a:hover{
+        text-decoration: underline;
+    }
+    .bout{
+        display: block;
+        width: 85%;
+        font-size: 12px;
+        margin-left: 10px;
+        padding-top: 10px;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    .rights{
+       margin-left: 36.2%;
+    }
+    .bout a{
+        text-decoration: none;
+        color: #666666;
+        padding: 0 10px;
+    }
+    .bout a:hover{
+        text-decoration: underline;
+    }
+    .limited{
+        width: 85%;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 35px;
+    }
 }
