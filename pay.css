@@ -3,6 +3,9 @@
     margin: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
+.container{
+    width: fit-content;
+}
 .pay_logo2{
     display: none;
 }
@@ -305,8 +308,8 @@
     }
     .nav_bar{
         width: 100%;
-        background-color: red;
         display: flex;
+        height: 50px;
         justify-content: space-around;
     }
     .menu{
@@ -316,7 +319,7 @@
         color: blue;
         height: fit-content;
         margin-top: 5px;
-        margin-left: 1px;
+        margin-left: 0px;
         padding: 13px 20px;
         background-color: white;
         border: 2px solid blue;
@@ -329,6 +332,7 @@
         color: blue;
         margin-top: 5px;
         height: fit-content;
+        margin-right: 25px;
         padding: 13px 20px;
         background-color: white;
         border: 2px solid blue;
@@ -345,6 +349,8 @@
     }
     .pay_logo2{
         display: block;
+        margin: 0;
+        padding: 0;
     }
     .div1{
         width: 100%;
@@ -500,6 +506,7 @@
         height: 10%;
     }
     .div4{
+        width: 100%;
         background-color: #0070ba;
         padding-bottom: 45px;
         color: white;
@@ -582,36 +589,9 @@
         color: white;
     }
     .help{
-        background-color: #0070ba;
-        padding-top: 60px;
+        display: none;
     }
-    .move{
-        width: 75%;
-        word-spacing: 3px;
-        margin-left: 45px;
-        padding-bottom: 20px;
-        border: none;
-        font-size: 14px;
-        font-weight: bold;
-        line-height: 30px;
-        text-align: center;
-    }
-    .move a{
-        padding: 0 5px;
-        color: #666666;
-        text-decoration: none;
-    }
-    .move a:hover{
-        text-decoration: underline;
-    }
-    .bout{
-        display: block;
-        background-color: red;
-        width: 290.5px;
-        font-size: 14px;
-        margin-left: 45px;
-        padding-top: 10px;
-        text-align: center;
-        margin-bottom: 20px;
+    .limited{
+        display: none;
     }
 }
