@@ -1,55 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
-}
-.pay_logo2{
-    display: none;
-}
-
-.nav_bar{
-    width: 100%;
-    height: 25%;
-    margin-bottom: 15px;
-}
-.log{
-    float: right;
-    margin-right: 1%;
-    margin-top: 1%;
-    font-weight: 800;
-    color: blue;
-    font-size: 16px;
-    padding: 10px 28px;
-    background-color: white;
-    border: 2px solid blue;
-    border-radius: 25px;
-}
-.sign{
-    float: right;
-    margin-right: 10%;
-    clear:left;
-    margin-top: 1%;
-    background-color: blue;
-    color: white;
-    padding: 10px 28px;
-    font-size: 16px;
-    font-weight: 800;
-    border-radius: 25px;
-    border: none;
-}
-.menu{
-    display: none;
-}
-.sonal{
-    float: right;
-    margin-right: 26.5%;
-    margin-top: 1.5%;
-}
-.pay_logo{
-    margin-left: 5%;
-    margin-top:0.8%;
-    clear: right;
-}
 .div1{
     width: 100%;
     height: 55%;
@@ -68,7 +16,7 @@
 }
 .free{
     border:none;
-    padding: 12px 8%;
+    padding: 12px 26%;
     border-radius: 18px;
     color: white;
     background-color: #0070ba;
@@ -77,7 +25,7 @@
 }
 .business{
     padding-top: 22px;
-    font-size: 15px;
+    font-size: 13px;
 }
 .div1 a{
     color: white;
@@ -91,11 +39,11 @@
     width: 100%;
     text-align: center;
     font-weight: lighter;
-    margin-top :70px;
+    margin-top :40px;
     margin-bottom: 10px;
 }
 .online_payers{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: lighter;
     margin-bottom: 60px;
 }
@@ -111,9 +59,9 @@
 }
 .learn{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: bold;
     margin: 30px;
-    padding: 15px 42px;
+    padding: 15px 62px;
     color: #0070ba;
     background-color: white;
     border-radius: 29px;
@@ -141,29 +89,56 @@
     justify-content: space-evenly;
     margin-top: 40px;
 }
+.signs{
+    
+    padding-right: 10px;
+    width: auto;
+    text-align: justify;
+}
+.subs1{
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666666;
+}
+.subs2{
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #666666;
+}
+.subs3{
+    margin-top: 40px;
+}
+
 .subs1 span{
-    border: 1px solid #666666;;
-    padding: 7px 12px;
+    border: 1px solid #666666;
+    padding: 14px 18px;
     margin: 5px;
-    border-radius: 18px; 
+    border-radius: 80px; 
+}
+.mob_adjust{
+    margin-left: 60px;
 }
 .subs2 span{
     border: 1px solid#666666;;
     margin: 5px;
-    padding: 7px 12px;
-    border-radius: 18px;
+    padding: 14px 18px;
+    border-radius: 80px;
 }
 .subs2 div{
-    padding-right: 60px;
+    padding-right: 160px;
+}
+.subs3 div{
+    padding-right: 30px;
 }
 .subs3 span{
     border: 1px solid #666666;;
     margin: 5px;
-    padding: 7px 12px;
-    border-radius: 18px;
+    padding: 14px 18px;
+    border-radius: 80px;
 }
 .subs3 .pal_con{
-    padding-left: 36px;
+    padding-left: 40px;
 }
 .learns{
     margin-top: 50px;
@@ -182,36 +157,46 @@
     color: white;
 }
 .div4 .active{
-    font-size: 36px;
-    padding-top: 40px;
-    padding-left: 21%;
+    width: 99%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    padding-top: 35px;
+    padding-left: 0.6%;
 }
 .flex_contain{
     margin-top: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.frees{
-    margin-left: 10%;
-    margin-top: 5px;
-    width: 45%;
-}
-.safer p{
-    width: 80%;
+    justify-content: space-between;
 }
 .safer{
-    width: 50%;
+    width: fit-content;
+    padding-bottom: 20px;
+    margin-left: 12px;
 }
-.simple p{
-    width: 93%;
+.safer p{
+    width: 90%;
+    line-height: 24px;
 }
 .simple{
-    width: 45%;
+    width: fit-content;
+    padding-bottom: 20px;
+    margin-left: 12px;
+}
+.simple p{
+    width: 93.5%;
+    line-height: 24px;
+}
+.frees{
+    display: block;
+    width: fit-content;
+    margin-left: 13px;
 }
 .frees p{
-    width: 93%;
+    width: 90%;
+    line-height: 24px;
 }
 .safe{
    margin-bottom: 20px;
@@ -231,34 +216,40 @@
 .div5{
     width: 100%;
     text-align: center;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    font-size: 24px;
-    font-weight: 100;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 26px;
+    font-weight: lighter;
     background-color:#f7f9fa;
 }
 .started{
     margin-top: 20px;
     font-weight: 600;
-    padding: 14px 115px;
+    padding: 12px 125px;
     border-radius: 30px;
     border: none;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: bold;
     background-color: #0070ba;
     color: white;
 }
 .help{
+    background-color: #0070ba;
     padding-top: 60px;
 }
 .move{
-    width: 85%;
-    margin-left: 105px;
-    padding-bottom: 10px;
-    border-bottom: 1px dotted;
+    width: 75%;
+    word-spacing: 3px;
+    margin-left: 45px;
+    padding-bottom: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
 }
 .move a{
     padding: 0 5px;
-    font-size: 14px;
     color: #666666;
     text-decoration: none;
 }
@@ -266,20 +257,17 @@
     text-decoration: underline;
 }
 .bout{
-    background-color: #0070ba;
     display: block;
-    width: 50%;
-    font-size: 12px;
-    margin-left: 100px;
+    background-color: red;
+    width: 290.5px;
+    font-size: 14px;
+    margin-left: 45px;
     padding-top: 10px;
-    text-align: start;
+    text-align: center;
     margin-bottom: 20px;
 }
 .rights{
-    margin-top: -3%;
-    margin-left: 45.4%;
-    font-size: 12px;
-    padding-top: 5px;
+   
 }
 .bout a{
     text-decoration: none;
@@ -292,49 +280,6 @@
 .limited{
     width: 85%;
     font-size: 12px;
-    margin-left: 108px;
+    margin-left: 10px;
     margin-bottom: 35px;
-}
-
-
-@media screen and (max-width:375px) {
-    *{
-        padding: 0;
-        margin: 0;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
-    }
-    .nav_bar{
-        width: 89%;
-        background-color: red;
-        display: flex;
-        justify-content: center;
-    }
-    .menu{
-        font-size: 11px;
-        font-weight: 800;
-        color: blue;
-        height: fit-content;
-        margin-top: 11px;
-        margin-left: 10px;
-        padding: 13px 20px;
-        background-color: white;
-        border: 2px solid blue;
-        border-radius: 25px; 
-    }
-    .log{
-        margin-bottom:10px ;
-    }
-    .sign{
-        display: none;
-    }
-    .sonal{
-        display: none;
-    }
-    .pay_logo{
-        display: none;
-    }
-    .pay_logo2{
-        display: block;
-    }
-    
 }
