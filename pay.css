@@ -488,11 +488,11 @@
         border-radius: 80px;
     }
     .subs2 div{
-        width: fit-content;
+        width: auto;
         padding-right: 160px;
     }
     .subs3 div{
-        width: fit-content;
+        width:100%;
         padding-right: 30px;
     }
     .subs3 span{
