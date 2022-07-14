@@ -496,11 +496,11 @@
         border-radius: 80px;
     }
     .subs2 div{
-        width: auto;
+        width: max-content;
         padding-right: 160px;
     }
     .subs3 div{
-        width:100%;
+        width:90%;
         padding-right: 30px;
     }
     .subs3 span{
@@ -617,7 +617,7 @@
     }
     .move{
         width: 70%;
-        margin-left: 65px;
+        margin-left: 62px;
         padding-bottom: 10px;
         text-align: center;
         line-height: 25px;
@@ -635,7 +635,7 @@
     .bout{
         width:80%;
         font-size: 12px;
-        margin-left: 48px;
+        margin-left: 45px;
         line-height: 25px;
         padding-top: 10px;
         text-align: center;
@@ -643,7 +643,7 @@
     .rights{
         width: 80%;
         margin-top: -3%;
-        margin-left: 48px;
+        margin-left: 45px;
         text-align: center;
         line-height: 25px;
     }
