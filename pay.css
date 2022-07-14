@@ -201,6 +201,10 @@
     margin-top: 5px;
     width: 45%;
 }
+.frees h3{
+    font-size: 22px;
+    font-weight: bold;
+}
 .safer p{
     width: 80%;
 }
@@ -217,9 +221,13 @@
     width: 93%;
 }
 .safe{
+    font-size: 22px;
+    font-weight: bold;
    margin-bottom: 20px;
 }
 .safes{
+    font-size: 22px;
+    font-weight: bold;
     margin-top: -19px
  }
 .more{
@@ -559,15 +567,22 @@
         width: fit-content;
         margin-left: 13px;
     }
+    .frees h3{
+        font-size: 22px;
+        font-weight: bold;
+    }
     .frees p{
         width: 90%;
         line-height: 24px;
     }
     .safe{
+        
+        font-size: 22px;
         font-weight: bold;
        margin-bottom: 20px;
     }
     .safes{
+        font-size: 22px;
         font-weight: bold;
         margin-top: -19px
      }
