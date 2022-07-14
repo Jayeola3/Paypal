@@ -661,6 +661,8 @@
         text-decoration: underline;
     }
     .limited{
-        display: none;
+        margin-left: 38px;
+        text-align: center;
+        width:294px;
     }
 }
