@@ -500,7 +500,7 @@
         padding-right: 160px;
     }
     .subs3 div{
-        width:90%;
+        width:max-content;
         padding-right: 30px;
     }
     .subs3 span{
@@ -600,8 +600,8 @@
         text-align: center;
         padding-top: 60px;
         padding-bottom: 40px;
-        font-size: 26px;
-        font-weight: bold;
+        font-size: 23px;
+        font-weight: 500;
         background-color:#f7f9fa;
     }
     .started{
@@ -617,7 +617,7 @@
     }
     .move{
         width: 70%;
-        margin-left: 62px;
+        margin-left: 60px;
         padding-bottom: 10px;
         text-align: center;
         line-height: 25px;
@@ -635,7 +635,7 @@
     .bout{
         width:80%;
         font-size: 12px;
-        margin-left: 45px;
+        margin-left: 43px;
         line-height: 25px;
         padding-top: 10px;
         text-align: center;
@@ -643,7 +643,7 @@
     .rights{
         width: 80%;
         margin-top: -3%;
-        margin-left: 45px;
+        margin-left: 43px;
         text-align: center;
         line-height: 25px;
     }
