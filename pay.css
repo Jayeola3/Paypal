@@ -337,7 +337,7 @@
         margin-top: 7px;;
         padding: 13px 20px;
         background-color: white;
-        border: 2px solid blue;
+        border: 1px solid blue;
         border-radius: 25px; 
     }
     .log{
@@ -349,7 +349,7 @@
         height: fit-content;
         padding: 13px 20px;
         background-color: white;
-        border: 2px solid blue;
+        border: 1px solid blue;
         border-radius: 25px; 
     }
     .sign{
@@ -406,7 +406,6 @@
     .div2{
         width: 100%;
         text-align: center;
-        font-weight: lighter;
         margin-top :40px;
         margin-bottom: 10px;
     }
