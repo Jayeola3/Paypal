@@ -496,12 +496,12 @@
         border-radius: 80px;
     }
     .subs2 div{
-        width: max-content;
-        padding-right: 160px;
+        width: auto;
+        padding-right: 10px;
     }
     .subs3 div{
-        width:max-content;
-        padding-right: 30px;
+        width:auto;
+        padding-right: 10px;
     }
     .subs3 span{
         border: 1px solid #666666;;
@@ -601,7 +601,7 @@
         padding-top: 60px;
         padding-bottom: 40px;
         font-size: 23px;
-        font-weight: 500;
+        font-weight: 400;
         background-color:#f7f9fa;
     }
     .started{
