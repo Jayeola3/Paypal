@@ -669,7 +669,7 @@
 
 
 
-@media screen and (max-width:912px) {
+@media screen and (min-width:698px) {
     *{
         padding: 0;
         margin: 0;
