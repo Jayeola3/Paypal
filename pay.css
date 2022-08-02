@@ -317,11 +317,7 @@
 
 
 @media screen and (max-width:375px) {
-    *{
-        padding: 0;
-        margin: 0;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
-    }
+    
     .nav_bar{
         width: 100%;
         display: flex;
@@ -612,8 +608,12 @@
         background-color: #0070ba;
         color: white;
     }
+    .help{
+        text-align: center;
+    }
     .move{
         width: 70%;
+        margin: 0;
         margin-left: 58px;
         padding-bottom: 10px;
         text-align: center;
@@ -632,15 +632,16 @@
     .bout{
         width:80%;
         font-size: 12px;
-        margin-left: 41px;
-        line-height: 25px;
-        padding-top: 10px;
+        margin: 0;
+        padding-left: 50px;
+        background-color: goldenrod;
+        line-height: 23px;
         text-align: center;
     }
     .rights{
         width: 80%;
-        margin-top: -3%;
-        margin-left: 41px;
+        margin: 0;
+        padding-left: 50px;
         text-align: center;
         line-height: 25px;
     }
@@ -661,7 +662,8 @@
         text-decoration: underline;
     }
     .limited{
-        margin-left: 38px;
+        margin: 0;
+        padding-left: 38px;
         text-align: center;
         width:294px;
     }
