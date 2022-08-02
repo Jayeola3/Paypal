@@ -593,17 +593,17 @@
         text-align: center;
         padding-top: 60px;
         padding-bottom: 40px;
-        font-size: 23px;
-        font-weight: 400;
+        font-size: 22px;
+        font-weight: light;
         background-color:#f7f9fa;
     }
     .started{
         margin-top: 20px;
         font-weight: 600;
-        padding: 12px 125px;
+        padding: 12px 120px;
         border-radius: 30px;
         border: none;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
         background-color: #0070ba;
         color: white;
