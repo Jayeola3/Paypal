@@ -413,12 +413,13 @@
     .individ{   
         margin-top: 15px;
         font-size: 24px;
+        font-weight: 400;
         letter-spacing: 1px;
     }
     .reason{
         margin-top: 15px;
-        font-size: light;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: 200;
     }
     .learn{
         font-size: 15px;
@@ -439,7 +440,7 @@
     }
     .connect{
         font-size: 36px;
-        font-weight: 100;
+        font-weight: 300;
         padding-top: 50px;
     }
     .buys{
@@ -461,18 +462,18 @@
     .subs1{
         width: 100%;
         padding-bottom: 20px;
-        font-size: small;
+        font-size: 14px;
         border-bottom: 1px solid #666666;
     }
     .subs2{
         width: 100%;
         margin-top: 40px;
-        font-size: small;
+        font-size: 14px;
         padding-bottom: 40px;
         border-bottom: 1px solid #666666;
     }
     .subs3{
-        font-size: small;
+        font-size: 14px;
         margin-top: 40px;
     }
     
