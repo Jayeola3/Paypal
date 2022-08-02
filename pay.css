@@ -407,7 +407,7 @@
     }
     .online_payers{
         font-size: 32px;
-        font-weight: 400;
+        font-weight: 200;
         margin-bottom: 60px;
     }
     .individ{   
@@ -417,7 +417,7 @@
     }
     .reason{
         margin-top: 15px;
-        font-size: 16px;
+        font-size: light;
         font-weight: 400;
     }
     .learn{
@@ -439,7 +439,7 @@
     }
     .connect{
         font-size: 36px;
-        font-weight: 200;
+        font-weight: 100;
         padding-top: 50px;
     }
     .buys{
@@ -461,15 +461,18 @@
     .subs1{
         width: 100%;
         padding-bottom: 20px;
+        font-size: small;
         border-bottom: 1px solid #666666;
     }
     .subs2{
         width: 100%;
         margin-top: 40px;
+        font-size: small;
         padding-bottom: 40px;
         border-bottom: 1px solid #666666;
     }
     .subs3{
+        font-size: small;
         margin-top: 40px;
     }
     
@@ -543,6 +546,7 @@
         margin-left: 12px;
     }
     .safer p{
+        font-size: small;
         width: 90%;
         line-height: 24px;
     }
@@ -552,6 +556,7 @@
         margin-left: 12px;
     }
     .simple p{
+        font-size: small;
         width: 93.5%;
         line-height: 24px;
     }
@@ -561,22 +566,23 @@
         margin-left: 13px;
     }
     .frees h3{
-        font-size: 22px;
-        font-weight: bold;
+        font-size: 21px;
+        font-weight: 400;
     }
     .frees p{
+        font-size: small;
         width: 90%;
         line-height: 24px;
     }
     .safe{
         
-        font-size: 22px;
-        font-weight: bold;
+        font-size: 21px;
+        font-weight: 400;
        margin-bottom: 20px;
     }
     .safes{
-        font-size: 22px;
-        font-weight: bold;
+        font-size: 21px;
+        font-weight: 400;
         margin-top: -19px
      }
     .more{
@@ -594,7 +600,7 @@
         padding-top: 60px;
         padding-bottom: 40px;
         font-size: 22px;
-        font-weight: light;
+        font-weight: 400;
         background-color:#f7f9fa;
     }
     .started{
@@ -633,14 +639,14 @@
         width:80%;
         font-size: 12px;
         margin: 0;
-        padding-left: 50px;
+        padding-left: 45px;
         line-height: 23px;
         text-align: center;
     }
     .rights{
         width: 80%;
         margin: 0;
-        padding-left: 50px;
+        padding-left:45px;
         text-align: center;
         line-height: 25px;
     }
@@ -662,7 +668,7 @@
     }
     .limited{
         margin: 0;
-        padding-left: 38px;
+        padding-left: 35px;
         text-align: center;
         width:294px;
     }
