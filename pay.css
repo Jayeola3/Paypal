@@ -407,19 +407,19 @@
     }
     .online_payers{
         font-size: 32px;
-        font-weight: 200;
+        font-weight: 400;
         margin-bottom: 60px;
     }
     .individ{   
         margin-top: 15px;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 300;
         letter-spacing: 1px;
     }
     .reason{
         margin-top: 15px;
         font-size: 14px;
-        font-weight: 200;
+        font-weight: 300;
     }
     .learn{
         font-size: 15px;
@@ -498,7 +498,7 @@
     }
     .subs3 div{
         width:auto;
-        padding-right: 10px;
+        padding-right: 70px;
     }
     .subs3 span{
         border: 1px solid #666666;;
@@ -600,20 +600,17 @@
         text-align: center;
         padding-top: 60px;
         padding-bottom: 40px;
-        font-size: 22px;
+        font-size: 21px;
         font-weight: 400;
         background-color:#f7f9fa;
     }
     .started{
         margin-top: 20px;
         font-weight: 600;
-        padding: 12px 120px;
+        padding: 12px 105px;
         border-radius: 30px;
-        border: none;
         font-size: 15px;
         font-weight: bold;
-        background-color: #0070ba;
-        color: white;
     }
     .help{
         text-align: center;
@@ -640,7 +637,7 @@
         width:80%;
         font-size: 12px;
         margin: 0;
-        padding-left: 45px;
+        padding-left: 42px;
         line-height: 23px;
         text-align: center;
     }
