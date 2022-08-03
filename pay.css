@@ -496,8 +496,8 @@
         width: auto;
         padding-right: 10px;
     }
-    .subs3 div{
-        
+    .spree{
+        width: max-content;
     }
     .subs3 span{
         border: 1px solid #666666;;
@@ -665,7 +665,7 @@
     }
     .limited{
         margin: 0;
-        padding-left: 35px;
+        padding-left: 30px;
         text-align: center;
         width:294px;
     }
